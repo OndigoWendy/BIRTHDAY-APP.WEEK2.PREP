@@ -1,6 +1,6 @@
 .rightPage{
   grid-column: 1/2;
-  padding: 5%;
+  padding: 1%;
   border: solid 1px;
   background-color: #343a4a;
   color: antiquewhite;
@@ -8,7 +8,7 @@
 
 .leftPage{
   grid-column: 2/2;
-  padding: 10%;
+  padding: 1%;
   border: solid 1px;
   margin: 3%;
   background-color: #343a4a;
@@ -18,8 +18,18 @@
 .container{
   display: grid;
   width: 100vw;
-  font-size: 1.3vw;
+  font-size: 1.1vw;
 }
 .form-group {
-width: 40vw;
+width: 50vw;
+}
+
+.header1{
+  border: solid 1px;
+color: antiquewhite;
+background-color:#343a4a ;
+padding: 1% 40%;
+}
+.ri-subscript{
+  border: solid 1px;
 }
