@@ -1,0 +1,15 @@
+.rightPage{
+  grid-column: 1/2;
+  padding: 5%;
+}
+
+.leftPage{
+  grid-column: 2/2;
+  padding: 10%;
+}
+
+.container{
+  display: grid;
+  width: 100vw;
+  font-size: 1.3vw;
+}
