@@ -35,7 +35,7 @@ function calculateMale(){
           else {
               dayBorn = weekday[thatDay];//This is what we are looking for.
 
-              dob = dayBorn + ", " + month + " " + date + ", " + year + ".";
+              dob = dayBorn+"."+ "Your birthday is on "+ ", " + month + " " + date + ", " + year + ".";
               
               document.getElementById("display2").innerHTML="You were born on " + dob; //To return our result
 }
@@ -71,7 +71,7 @@ function calculateFemale(){
          else {
              dayBorn = weekday[thatDay];//This is what we are looking for.
 
-             dob = dayBorn + ", " + month + " " + date + ", " + year + ".";
+             dob = dayBorn+"."+ "Your birthday is on "+ ", " + month + " " + date + ", " + year + ".";
              
              document.getElementById("display1").innerHTML="You were born on " + dob; //To return our result
 }

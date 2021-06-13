@@ -6,7 +6,7 @@
 
 /* header */
 .header1{
-  color:  antiquewhite;
+  color:  rgb(235, 144, 111);
   padding: 2% 15%;
   margin: 2%;
   font-size: 200%;
@@ -34,7 +34,7 @@
 
 .leftPage{
   grid-column: 2/2;
-  padding: 10%;
+  padding: 7%;
   border: solid 1px;
   border-radius: 5%;
   margin: 3% 3% 3% 3%;
@@ -43,10 +43,20 @@
   
 }
 
+strong{
+color:rgb(235, 144, 111) ;
+}
+
+H1{
+  color: rgb(235, 144, 111);
+}
+
 /* Input form */
 .form-group {
 width: 50vw;
 }
 
-
+.col-7{
+  padding: 2%;
+}
 
