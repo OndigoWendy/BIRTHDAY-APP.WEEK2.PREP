@@ -1,35 +1,52 @@
-.rightPage{
-  grid-column: 1/2;
-  padding: 1%;
-  border: solid 1px;
-  background-color: #343a4a;
+/* General Style */
+#myBody{
+  height: 100vh;
   color: antiquewhite;
 }
 
-.leftPage{
-  grid-column: 2/2;
-  padding: 1%;
-  border: solid 1px;
-  margin: 3%;
-  background-color: #343a4a;
-  color: antiquewhite;
-}
+/* header */
+.header1{
+  color:  antiquewhite;
+  padding: 2% 15%;
+  margin: 2%;
+  font-size: 200%;
+  background-color: #3e3e41;
+  border-radius: 10%;
+  }
+  .ri-subscript{
+    border: solid 1px;
+  }
 
+  /* Text Content */
 .container{
   display: grid;
   width: 100vw;
   font-size: 1.1vw;
 }
+.rightPage{
+  grid-column: 1/2;
+  padding: 1%;
+  border: transparent 1px;
+  background-color: #3e3e41;
+  color: antiquewhite;
+  border-radius: 5%;
+}
+
+.leftPage{
+  grid-column: 2/2;
+  padding: 10%;
+  border: solid 1px;
+  border-radius: 5%;
+  margin: 3% 3% 3% 3%;
+  background-color:#3e3e41;
+  color: antiquewhite;
+  
+}
+
+/* Input form */
 .form-group {
 width: 50vw;
 }
 
-.header1{
-  border: solid 1px;
-color: antiquewhite;
-background-color:#343a4a ;
-padding: 1% 40%;
-}
-.ri-subscript{
-  border: solid 1px;
-}
+
+
