@@ -18,10 +18,8 @@ function calculateMale(){
   
   var date=stagedDate.getDate(); //This method returns the day number of the dates day of the month eg from 1st to 31st.
 
-  var year=stagedDate.getYear();//The getYear() method returns the year in the specified date according to local time. Because getYear() does not return full years ("year 2000 problem"), it is no longer used and has been replaced by the getFullYear() method.
+  var year=stagedDate.getFullYear();//The getYear() method returns the year in the specified date according to local time. Because getYear() does not return full years ("year 2000 problem"), it is no longer used and has been replaced by the getFullYear() method.
 
-          if (year<100) year="19" + stagedDate.getYear();
-          else year=stagedDate.getYear();
 
           let weekday = new Array(6);
           weekday[1]="Sunday and your Akan name is Kwasi";
@@ -58,10 +56,7 @@ function calculateFemale(){
  
  var date=stagedDate.getDate(); //This method returns the day number of the dates day of the month eg from 1st to 31st.
 
- var year=stagedDate.getYear();//The getYear() method returns the year in the specified date according to local time. Because getYear() does not return full years ("year 2000 problem"), it is no longer used and has been replaced by the getFullYear() method.
-
-         if (year<100) year="19" + stagedDate.getYear();
-         else year=stagedDate.getYear();
+ var year=stagedDate.getFullYear();//The getYear() method returns the year in the specified date according to local time. Because getYear() does not return full years ("year 2000 problem"), it is no longer used and has been replaced by the getFullYear() method.
 
          let weekday = new Array(6);
          weekday[1]="Sunday and your Akan name is Akosua ";
