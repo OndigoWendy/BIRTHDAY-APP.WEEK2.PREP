@@ -6,7 +6,7 @@ This is a web application that takes a user's birthday and calculates the day of
  Akan names are derived from Ghanian culture. Frequently in Ghana, children are given their first name as a 'day name' which corresponds to the day in the week they were born. Here are Ghanian day names.
 ## Table of contents
 * [Project Name](#Project)
-* [Author]
+* [Author](#Author)
 * [General info](#general-info)
 * [Technologies](#technologies)
 * [Setup](#setup)
@@ -14,7 +14,7 @@ This is a web application that takes a user's birthday and calculates the day of
 * [Contact information](#contacts)
 
 ## Project Name
- WENDY ONDIGO-PORTFOLIO
+AKAN NAMES.
  ## Authors
 Wendy Ondigo
 
