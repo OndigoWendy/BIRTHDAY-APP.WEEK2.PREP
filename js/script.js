@@ -37,7 +37,7 @@ function calculateMale(){
 
               dob = dayBorn+"."+ "Your birthday is on "+ ", " + month + " " + date + ", " + year + ".";
               
-              document.getElementById("display2").innerHTML="You were born on " + dob; //To return our result
+              document.getElementById("display2").innerHTML="You were born on a " + dob; //To return our result
 }
 }
 
@@ -73,6 +73,6 @@ function calculateFemale(){
 
              dob = dayBorn+"."+ "Your birthday is on "+ ", " + month + " " + date + ", " + year + ".";
              
-             document.getElementById("display1").innerHTML="You were born on " + dob; //To return our result
+             document.getElementById("display1").innerHTML="You were born on a" + dob; //To return our result
 }
 }
