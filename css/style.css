@@ -1,10 +1,28 @@
-/* html { 
-  background: url(images/bg.jpeg) no-repeat center center fixed; 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-} */
+/* General Style */
+#myBody{
+  height: 100vh;
+  color: antiquewhite;
+}
+
+/* header */
+.header1{
+  color:  antiquewhite;
+  padding: 2% 15%;
+  margin: 2%;
+  font-size: 200%;
+  background-color: #3e3e41;
+  border-radius: 10%;
+  }
+  .ri-subscript{
+    border: solid 1px;
+  }
+
+  /* Text Content */
+.container{
+  display: grid;
+  width: 100vw;
+  font-size: 1.1vw;
+}
 .rightPage{
   grid-column: 1/2;
   padding: 1%;
@@ -13,11 +31,7 @@
   color: antiquewhite;
   border-radius: 5%;
 }
-#myBody{
-  height: 100vh;
-  color: antiquewhite;
- 
-}
+
 .leftPage{
   grid-column: 2/2;
   padding: 10%;
@@ -29,29 +43,10 @@
   
 }
 
-.container{
-  display: grid;
-  width: 100vw;
-  font-size: 1.1vw;
- 
-}
+/* Input form */
 .form-group {
 width: 50vw;
 }
 
-.header1{
-  /* border: solid 1px; */
-color:  antiquewhite;
-padding: 2% 15%;
-margin: 2%;
-/* border: solid 1px; */
-/* background-color: #3e3e41; */
 
-font-size: 200%;
-background-color: #3e3e41;
-border-radius: 10%;
-}
-.ri-subscript{
-  border: solid 1px;
-}
 
